@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 我的单车
-category: life
-description: 热爱她，一定有长久的原因。
+category: riding
+tags:
+- 自行车
+
 ---
 
 ###小学

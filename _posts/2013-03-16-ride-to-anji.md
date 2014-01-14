@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 丁香园骑行小分队天荒坪两日行
-category: life
+category: riding
 tags:
 - 骑行 
 - 丁香园 
 - 天荒坪
-description: 13人，2天，240公里，最高1000m海拔
+
 ---
 
 ## 前期准备

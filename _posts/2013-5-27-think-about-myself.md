@@ -1,8 +1,11 @@
 ---
 layout:     post
 title:      看看别人，想想自己
-category: pm
-description: “自我增值，女神不断”，谢谢你们送的话，很正确！
+category: life
+tags:
+- 感情
+- 自省
+
 ---
 
 自我吐槽
