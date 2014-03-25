@@ -14,11 +14,11 @@ tags:
 > 这个方法返回 BOOL 值，如果矩形包含有这个点，返回 YES，否则返回 NO。
 	
 	
-#####在 Rectangle.h 添加
+在 Rectangle.h 添加
 
 		-(BOOL) containsPoint:(XYpoint *) aPoint;
 
-#####在 Rectangle.m 添加
+在 Rectangle.m 添加
 
 		-(BOOL) containsPoint:(XYpoint *) aPoint{
 		if ((aPoint.x >= origin.x) && (aPoint.x <= origin.x + width) && (aPoint.y >= origin.y) && (aPoint.y <= origin.y + height)) {
@@ -28,7 +28,7 @@ tags:
              }
 		}
 		
-#####在 main.m 中的代码为
+在 main.m 中的代码为
 
 
 		#import "Rectangle.h"
@@ -67,19 +67,19 @@ tags:
         return 0;
 		}
         
-#####调试结果
+调试结果
 
 2014-03-24 22:27:08.541 Rectangle[25269:303] YES,it Contain the point (3.00,5.00)
 
 2014-03-24 22:27:08.541 Rectangle[25269:303] NO,it is not contain the point (5.00,18.00)
 
-#####注意
+注意
 * if else 后面的{} 不能丢失
 * BOOL 返回值为 YES 或者 NO，被 if 语句用做判断
 * 
 
 
-#####发散思维
+发散思维
 这个只是判断点在矩形范围内，如果判断点是否在矩形的线条上，containsPoint:方法该如何改？
 
 		((aPoint.x = origin.x) || ((aPoint.y >= origin.y) &&(aPoint.y <= origin.y + height))) && ((aPoint.x = origin.x + width) || ((aPoint.y >= origin.y) &&(aPoint.y <= origin.y + height))) && ((aPoint.y = origin.y) || ((aPoint.x >= origin.x) &&(aPoint.x <= origin.x + width))) && ((aPoint.y = origin.y + height) || ((aPoint.x >= origin.x) &&(aPoint.x <= origin.x + width)))
