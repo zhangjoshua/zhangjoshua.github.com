@@ -11,7 +11,7 @@ tags:
 >
 >如果矩形没有相交，返回宽度与高度均为零的矩形，其原点位（0，0）。
 
-判断返回值应该为（Rectangle *）,在 Rectangle.h 中加入：
+判断返回值应该为（Rectangle \*）,在 Rectangle.h 中加入：
 
 		-(Rectangle *) intersect: (Rectangle *) newRec;
 
