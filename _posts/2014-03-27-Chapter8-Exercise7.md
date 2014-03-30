@@ -77,4 +77,22 @@ main.m 中的实现：
         
         NSLog(@"the Rec's point is (%.2f,%.2f),the width and height is %.2f %.2f",inter.origin.x,inter.origin.y,inter.width,inter.height);
         
-输出的结果不是很正确，但是找不出问题。待解
+-输出的结果不是很正确，但是找不出问题。待解-
+
+找到原因了，intersect: 方法的实例变量出了问题，
+
+将 Rectangle.m 进行如下修改即可：
+
+	-(Rectangle *) intersect: (Rectangle *) intersectRec{
+
+    //Rectangle *intersectRec = [Rectangle new];
+    XYpoint *origIntersectRec = [XYpoint new];
+
+当然，最好接口中保持同步
+	
+	-(Rectangle *) intersect: (Rectangle *) intersectRec;
+	
+输出：
+
+	2014-03-29 16:01:40.291 Rectangle[12826:303] the Rec's point is (400.00,420.00),the width and height is 50.00 60.00
+
