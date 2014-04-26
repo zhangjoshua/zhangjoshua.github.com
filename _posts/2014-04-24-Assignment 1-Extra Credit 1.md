@@ -60,3 +60,4 @@ step2：在 digitPressed: 方法中除去“=”
 	if (self.allDisplay.text){
 	    self.allDisplay.text =[self.allDisplay.text substringToIndex:[self.allDisplay.text length] - 1];
         }
+以上。
