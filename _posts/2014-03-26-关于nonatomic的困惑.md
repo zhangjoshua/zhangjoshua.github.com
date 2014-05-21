@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于 (nonatomic) 的困惑
+title: 关于nonatomic的困惑
 category: Objective-C
 tags:
 - obj学习
