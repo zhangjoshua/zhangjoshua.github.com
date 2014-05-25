@@ -53,15 +53,15 @@ layout: page
 	
 	
 ---
-### 工具&技能
+### 工具技能
 
 * 熟练使用 Axure 或 Balasmiq Mockups 进行原型设计
 
 * 会使用 Photoshop 设计图片
 
-* 会简单使用 github 建设和维护博客
+* 会简单使用 vim 和 github 建设和维护博客
 
-* 会简单使用 终端命令 进行日志查询，用于数据分析
+* 简单使用 bash命令 进行日志查询，用于数据分析
 
 
 ---
