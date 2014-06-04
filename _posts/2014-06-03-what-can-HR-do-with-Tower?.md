@@ -1,0 +1,93 @@
+---
+layout: post
+category: pm
+title: HR 能用 Tower 做些什么？
+tags:
+-- Tower
+
+---
+
+###基于 Tower实现的招聘管理系统
+
+可能因为正在负责招聘网站的产品设计，或者因为非常喜欢 Tower的工作方式(最近已经完全抛弃原有的内部 PM管理系统)。我总想将 Tower和招聘拉上关系，期待 HR 使用 Tower后，会放弃陈旧的邮件交流或三大招聘网站的后台。
+
+Tower 是一款高效的处理任务和项目管理的团队协作工具，简单好用的特点已经在工作中感受到了。我非常喜欢其讨论交流和归档的功能，而这正好是 HR 很需要但暂没有很好满足的需求。
+
+这是目前 HR 的工作流程：
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/1400/1*il6eDBj6NN3sla7xgvxpOA.jpeg)
+
+存在的问题：
+
+1、一个招聘流程需要跨越三个平台，非常麻烦
+
+2、讨论过程、求职者评价内容很难完整保存下来
+
+3、第三方的简历管理软件，大多数强调简历的存储和搜索，忽视面试讨论确定的过程
+
+如果HR 使用 Tower ，工作内容会变成这样：
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/1400/1*MXRS6CWhaYmfQXQOOS31vA.jpeg)
+
+虽然流程没有变化，但效率提高了，除了简历来源，其余所有都可以在 Tower中完成，且每份简历的讨论记录到最终录用状态都可以完美保存，并方便搜索、回顾和汇总。
+
+---
+
+为了进一步完善我的想法，我使用 Tower 模拟一次招聘流程：
+
+	出场人物：刘可（HR）、李辉（部门主管）、张海（面试人员）、吕城（CEO）、王大锤（求职者）、张小北（求职者）、李莉莉（求职者）、赵宁（求职者）
+	
+#####HR的 Tower工作首页
+
+* 根据不同部门划分不同项目，HR 可方便调整优先级，一目了然
+* 不同部门添加相应的部门主管，相互无干扰
+* 对于部门主管来说，招人是工作的一部分，所以放在 Tower上管理，没有违和感
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/1017/1*4zxKuAQmgQA7DzX1tZkrHQ.png)
+
+#####产品组2014招聘 — 任务
+
+* 命名规则：#状态标签#+姓名+工作经验+专业+毕业学校（自定义），利于搜索
+* 任务描述可用来填写简单的职位描述
+* 指派某人和面试时间，提醒很方便
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/800/1*ogcuFvDeP-aiUqB1zrUUjw.png)
+
+#####招聘的讨论页面
+
+* 上传简历预览很方便
+* 状态更改 timeline，很方便查看面试进度
+* 整个讨论过程就是一个面试流程
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/700/1*j0ifRC_Q_LJ-0krdqxsyOw.jpeg)
+
+#####简历预览
+
+* 方便手持设备浏览简历（iPad）
+* 这里演示用的是 pdf 格式，打开速度很快
+* word 格式的预览，需要启用 Word Web App，速度上差点
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/1031/1*l2J_SbNOaFCdS9IlGm0spw.png)
+
+#####使用搜索
+
+* 会搜索到已经删除的任务（bug?）
+* 使用固定的标签词、姓名、经验、专业，很容易搜索到相应简历
+* 再加上筛选功能，比如：文件，即可将所有的简历附件筛选出来
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/1002/1*pD0UNtLvU1cBp37j8QjPyA.png)
+
+#####归档备份
+
+* 除了搜索，查看某个部门「已完成的任务」，即可查看该部门所有已完成的应聘简历
+* 在文件中，可以为每份简历打上标签（见下图），筛选非常方便
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/931/1*571VYAFRaZFjCNW8YseX9g.png)
+
+![image](https://d262ilb51hltx0.cloudfront.net/max/800/1*3_62zYrZOsQ97k1t1DipsA.png)
+
+以上的流程可以满足大多数公司 HR的招聘需求，且多个 HR同时协作的优越性也非常明显。
+
+---
+虽然目前没有看到有 HR 如此使用 Tower，但我觉得将 Tower 稍作改动即是一个非常方便简单的「招聘管理系统」。
+
