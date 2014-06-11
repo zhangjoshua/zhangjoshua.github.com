@@ -3,7 +3,7 @@ title: backup
 layout: page
 
 ---
-#####博客备份
+##### 学习备份
 
 * [做不了，谁的错](http://qiuyuexp.com/problem-in-implementation/)   (by qiuyuexp)
 
@@ -11,6 +11,7 @@ layout: page
 
 * [产品经理如何恰当地与程序员、设计师相处合作？](http://zhuanlan.zhihu.com/kantzou/19760451)(by 邹剑波Kant)
 
+* [Yoyo’s Design Principles Collection](http://zhuanlan.zhihu.com/youwenwen/19614137)  (by 设计师 Yoyo)
 ---
 
 #####长期阅读
