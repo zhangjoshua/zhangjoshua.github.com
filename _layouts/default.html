@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <script async src="https://static.medium.com/embed.js"></script>
+    <style>
+        .sider{float:right; width: 250px;}
+        .sider iframe{width: 245px!important;}
+    </style>
   </head>
   <body>
-    <div id="container">
+    <div id="container" style="width:1000px;">
       <div id="main" role="main">
         <header>
         <h1>{{ page.title }}</h1>
         <p>  张小北。<p>
         </header>
-        <nav>
+        <nav style="margin: 1em -6em;">
         <span><a  class="" href="{{ site.url }}/">文章</a></span>
         <span><a  class="" href="{{ site.url }}/resume/">简历</a></span>
         <span><a  class="" href="{{ site.url }}/categories/">分类</a></span>
@@ -26,10 +31,15 @@
         <span><a  href="http://weibo.com/339340001" target="_blank">微博</a></span>
         <span><a  href="http://www.douban.com/people/zhangjoshua/" target="_blank">豆瓣</a></span>
         </nav>
-        <article class="content">
-        {{ content }}
-        </article>
-        <image src="{{site.url}}/wechat.png" class="wechat">
+        <div style="clearfix">
+          <div class="sider">
+            <a class="m-profile" style="float: left;" href="https://medium.com/@zhangjoshua">Joshua ZH</a> 
+            <image src="{{site.url}}/wechat.png" class="wechat"></image>   
+          </div>
+          <article class="content" style="margin-right: 270px;">
+          {{ content }}
+          </article>
+        </div>
       </div>
     </div>
   </body>
