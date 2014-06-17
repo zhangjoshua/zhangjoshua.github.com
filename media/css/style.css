@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
-body{font-size:12px;font-family:sans-serif;color:#000000;background-color:#f9f9f9;}
+body{font-size:12px;font-family:sans-serif;color:#303030;background-color:#f9f9f9;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#5C8EB4;text-decoration:none;}
 a:hover{text-decoration:underline;}
@@ -22,8 +22,8 @@ blockquote p{margin:0;padding:.5em 0;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
-.listing-item a{padding:.2em 1em;}
-.listing-item time{color:#D1D1D1;font-size:14px;}
+.listing-item a{padding:.2em 1em;margin-bottom: 10px;}
+.listing-item time{color:#D1D1D1;font-size:13px;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:12px;}
 header{padding:.5em 0;margin:1em 0;text-align: center;}

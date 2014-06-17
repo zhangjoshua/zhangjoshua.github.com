@@ -1,0 +1,67 @@
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    body #container{
+        width: auto;
+    }
+
+    body #container #main .nav, body #container #main .blank, body #container #main .sider{
+        display: none
+    }
+
+    body #container #main .content{
+        width: auto;
+    }
+
+    body #container #main .content .post .listing .listing-item time{
+        float: none;
+        display: block;
+        width: auto;
+        text-align: left;
+        padding: .2em 1.4em;
+        color: #999;
+        font-size: 10px;
+    }
+
+    body #container #main .content .post .listing .listing-item a{
+        font-size: 13px;
+    }
+
+
+    /*body #container ul.posts .datetime {
+        float: none;
+        display: block;
+        width: auto;
+        text-align: left;
+    }
+
+    body #container #ind-instagram, body #container #ind-linkedin {
+        display: none;
+    }
+
+    body #container .links, body #container .content {
+        padding: 15px;
+    }
+
+    body #container .links section.post, body #container .content section.post {
+        margin: 0 -15px;
+    }
+
+    body #container .links section.post > p, body #container .links section.post h1,
+    body #container .links section.post h2, body #container .links section.post h3,
+    body #container .links section.post h4, body #container .links section.post .signoff,
+    body #container .links section.post blockquote, body #container .links section.post .highlight,
+    body #container .content section.post > p, body #container .content section.post h1,
+    body #container .content section.post h2, body #container .content section.post h3,
+    body #container .content section.post h4, body #container .content section.post .signoff,
+    body #container .content section.post blockquote, body #container .content section.post .highlight {
+        padding: 0 15px;
+    }
+
+    body #container .links section.post > ul, body #container .links section.post > ol,
+    body #container .content section.post > ul, body #container .content section.post > ol {
+        padding: 0 30px;
+    }*/
+}
