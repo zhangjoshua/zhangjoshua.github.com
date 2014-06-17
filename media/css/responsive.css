@@ -26,6 +26,10 @@
         font-size: 13px;
     }
 
+    body  #container #main .content .post{
+        padding: .7em 0.5em;
+    }
+
 
     /*body #container ul.posts .datetime {
         float: none;
