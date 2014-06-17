@@ -1,14 +1,11 @@
 @media (max-width: 480px) {
-    body {
-        padding: 0 10px;
-    }
 
     body #container{
         width: auto;
     }
 
     body #container #main .nav, body #container #main .blank, body #container #main .sider{
-        display: none
+        display: none;
     }
 
     body #container #main .content{
